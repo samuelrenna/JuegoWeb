@@ -11,7 +11,16 @@ const inicio = {
     iniciarjuego: function(){
         console.log("Juego iniciado");
         dimensiones.iniciar();
-        let r = new Rectangulo(10, 10, 100, 100);
+        inicio.recargaTiles();
         buclePrincipal.iterar();
+    },
+    recargaTiles: function() {
+        document.getElementById("juego").innerHTML = "";
+        for ( let y = 0; y < dimensiones.obtenerTilesVerticales(); y++) {
+            for( let x = 0; x < dimensiones.obtenerTilesHorizontales(); x++) {
+                const r = new Rectangulo(x * dimensiones.ladoTiles, y * dimensiones.ladoTiles, dimensiones.ladoTiles, dimensiones.ladoTiles);
+            }
+        }
+
     }
 };
