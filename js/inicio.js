@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function(){
 const inicio = {
     iniciarjuego: function(){
         console.log("Juego iniciado");
+        teclado.iniciar();
         dimensiones.iniciar();
         inicio.recargaTiles();
         buclePrincipal.iterar();

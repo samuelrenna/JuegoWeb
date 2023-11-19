@@ -15,7 +15,7 @@
 
 
 
-
+    <script src="js/teclado.js"></script>
     <script src="js/rectangulos.js"></script>
     <script src="js/buclePrincipal.js"></script> 
     <script src="js/dimensiones.js"></script> 
