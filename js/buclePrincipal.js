@@ -6,7 +6,7 @@
 //1seg = 1.000ms
 
 
-let buclePrincipal= {
+const buclePrincipal= {
     idEjecucion:null,
     ultimoRegistro: 0,
     aps: 0,

@@ -10,7 +10,7 @@ function Rectangulo(x, y, ancho, alto){
     this.id = "r" + x + y; //crear los id de nuestros rectangulos ejemplo (r x=11 y=23) para quedar (r1123)
     this.insertarDOM()
 }
-//introducir datos en html
+//introducir datos en html y al css
 Rectangulo.prototype.insertarDOM = function(){
     let div = '<div id="'  + this.id +  '"></div>' ;
     let html = document.getElementById("juego").innerHTML ;
