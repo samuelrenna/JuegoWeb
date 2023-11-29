@@ -14,8 +14,10 @@ const inicio = {
         alert ("podras ver los FPS y APS en la consola");
         alert ("si clikeas en la parte de los rectangulos de colores y usas el teclado podras ver en la consola lo que pulsas");
         alert ("podras ver los rectangulos de colores totalmente aleatorios que simulan lo que pasara con el mapa");
+        ajax.cargarArchivo("maps/map1.json");
         teclado.iniciar();
         dimensiones.iniciar();
+        mando.iniciar()
         inicio.recargaTiles();
         buclePrincipal.iterar();
     },

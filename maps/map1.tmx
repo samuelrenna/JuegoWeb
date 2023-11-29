@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="8" nextobjectid="192">
+ <editorsettings>
+  <export target="map1.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" source="../intento5.tsx"/>
+ <tileset firstgid="133" source="../intento5.1.tsx"/>
+ <layer id="1" name="suelos" width="40" height="40">
+  <data encoding="csv">
+3,3,2,2,2,3,2,2,3,2,2,2,3,2,3,2,2,2,2,2,2,2,3,2,2,2,44,2,2,2,13,14,14,14,14,14,14,14,14,15,
+3,2,2,2,2,2,2,2,2,2,2,2,44,2,3,2,2,2,2,2,2,2,3,2,2,2,44,2,2,2,25,175,175,175,175,175,175,175,175,27,
+2,2,2,2,44,2,2,2,2,2,2,2,44,44,44,44,44,44,44,44,44,44,3,2,2,2,44,2,2,2,25,175,182,182,175,175,182,182,175,27,
+2,2,2,2,44,2,2,2,2,2,2,2,44,2,2,2,2,2,2,2,2,2,2,2,44,2,44,2,2,2,25,175,175,175,175,175,175,175,175,27,
+2,2,44,44,44,44,44,44,44,44,44,44,44,2,2,44,2,2,2,44,44,44,44,2,44,44,44,2,2,2,25,182,182,175,182,182,175,182,182,27,
+2,2,2,2,2,2,2,2,2,2,3,2,44,2,44,3,2,2,2,2,2,2,2,44,2,2,2,3,2,2,25,182,182,175,182,182,175,182,182,27,
+3,2,2,2,2,2,2,2,2,2,3,2,44,44,3,2,2,2,2,2,2,2,2,44,2,2,2,3,2,2,25,182,182,175,182,182,175,182,182,27,
+3,2,2,2,2,2,2,2,2,2,3,2,44,3,2,2,2,2,3,3,2,2,2,44,2,2,2,3,2,2,25,182,182,175,182,182,175,182,182,27,
+3,3,2,44,2,3,2,3,3,2,2,44,2,2,2,2,2,3,3,2,2,2,2,44,2,2,2,2,2,2,25,182,182,175,182,182,175,182,182,27,
+2,2,2,44,44,44,44,44,44,44,44,2,2,2,2,2,2,3,2,2,2,2,2,44,3,2,3,2,2,2,25,182,182,175,182,182,175,182,182,27,
+13,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,15,2,2,2,44,2,2,2,2,2,2,25,182,182,175,182,182,175,182,182,27,
+25,175,175,175,175,182,182,182,182,182,182,182,182,182,182,182,182,182,182,27,2,2,2,2,2,2,44,2,2,2,25,182,182,175,182,182,175,182,182,27,
+25,175,182,182,182,182,182,182,182,182,182,175,175,182,175,175,182,182,182,27,2,2,2,2,2,3,44,2,2,2,25,182,182,175,175,175,175,182,182,27,
+25,175,175,175,175,182,182,182,182,182,182,175,175,182,175,175,182,182,182,27,2,2,2,2,2,2,44,2,2,2,25,175,175,182,182,182,182,175,175,27,
+25,182,182,182,175,182,175,175,175,175,182,175,182,175,182,175,182,182,175,27,2,44,44,44,2,2,2,2,2,2,25,175,182,182,182,182,182,182,175,27,
+25,175,175,175,175,182,175,182,182,175,182,175,182,182,182,175,182,175,182,27,2,2,2,2,2,2,2,2,2,2,25,175,182,182,175,175,182,182,175,27,
+25,182,182,182,182,182,175,175,175,175,182,175,182,182,182,175,182,182,182,27,2,2,2,2,2,2,2,2,2,2,25,175,175,175,175,175,175,175,175,27,
+25,182,182,182,182,182,175,182,182,175,182,182,182,182,182,182,182,182,182,27,2,2,2,44,2,2,2,2,2,2,25,182,182,182,182,182,182,182,182,27,
+25,182,182,182,182,182,175,182,182,175,182,182,182,182,182,182,182,182,182,27,2,2,2,44,2,2,2,2,2,2,25,182,182,182,182,182,182,182,182,27,
+37,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,39,2,2,2,44,2,2,44,2,2,2,37,38,38,38,38,38,38,38,38,39,
+2,3,3,3,3,3,3,3,3,2,2,2,3,3,3,3,3,2,2,2,2,2,2,2,2,2,44,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,44,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,3,2,2,2,2,2,2,2,2,3,2,3,2,2,2,2,2,2,2,2,44,44,44,2,2,44,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,3,2,2,2,2,2,2,2,2,2,2,2,2,44,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,44,44,2,2,2,2,2,2,2,44,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,3,2,2,2,2,2,2,2,44,2,2,2,2,2,2,2,2,44,44,44,2,2,44,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,3,2,2,2,2,2,3,2,2,2,2,44,2,2,2,2,2,2,2,2,2,2,2,2,2,44,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,44,44,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,44,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,13,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,15,2,2,44,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,25,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,27,2,2,44,2,2,2,44,2,2,2,
+2,2,2,2,2,2,2,2,2,2,25,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,27,2,2,44,2,2,2,44,2,2,2,
+2,2,2,2,2,2,2,2,2,2,25,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,27,2,2,44,2,2,2,44,2,2,2,
+2,2,2,2,2,2,3,2,2,2,25,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,27,2,2,2,2,2,2,44,2,2,2,
+2,2,2,2,2,2,3,2,2,2,25,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,27,2,2,2,2,2,2,2,2,44,2,
+2,2,2,2,2,2,2,2,2,2,25,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,27,2,2,2,44,2,2,2,2,44,2,
+2,2,2,2,2,2,2,2,2,2,25,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,27,2,2,2,44,2,2,2,44,44,2,
+2,2,2,2,2,2,2,2,2,2,25,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,27,2,2,2,44,44,44,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,37,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,39,2,2,2,2,2,2,2,2,2,2
+</data>
+ </layer>
+ <layer id="2" name="edificios" width="40" height="40">
+  <data encoding="csv">
+28,29,28,29,28,29,28,29,28,29,28,29,28,93,29,28,29,28,29,29,103,99,6,6,6,30,6,28,4,137,159,103,159,159,159,159,159,103,159,138,
+29,49,52,51,0,52,50,51,49,52,51,0,0,105,0,0,0,0,0,29,121,123,0,28,28,28,0,28,16,103,134,135,135,135,135,135,135,139,136,146,
+28,61,62,63,0,61,62,63,61,62,63,0,0,0,0,0,0,0,0,28,190,192,0,0,0,28,0,28,5,148,146,152,173,162,179,180,153,151,148,103,
+29,73,74,86,0,73,85,86,73,74,86,0,0,29,0,0,0,0,0,193,0,0,0,0,0,28,0,28,17,148,103,164,0,0,0,0,165,189,148,146,
+28,0,0,0,0,0,0,0,0,0,0,0,0,29,29,0,0,0,0,0,0,0,0,0,0,0,0,0,4,148,146,0,0,0,0,0,0,188,103,146,
+29,49,52,51,49,52,51,49,52,51,0,0,0,29,0,0,0,0,0,0,97,99,30,0,7,9,0,0,16,148,146,0,0,0,93,0,0,200,148,146,
+28,61,62,63,61,62,63,61,62,63,0,0,0,0,0,0,0,0,0,0,103,111,18,0,31,33,0,0,5,103,146,0,0,0,105,131,0,214,148,103,
+29,73,85,86,73,74,86,73,85,86,0,0,0,0,0,0,0,0,0,0,109,111,30,0,0,0,0,0,17,148,146,206,0,0,0,0,0,214,148,146,
+28,0,0,0,0,0,0,0,0,0,0,0,29,0,0,0,0,0,0,29,109,111,18,0,0,0,0,0,5,148,146,205,0,0,0,0,0,214,148,146,
+29,0,0,0,0,0,0,0,0,0,0,29,29,0,0,0,0,0,29,29,121,103,30,0,0,8,0,0,17,148,103,206,0,0,0,0,0,201,103,146,
+45,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,47,190,192,18,0,19,20,21,0,4,148,146,0,0,0,0,0,0,189,148,146,
+57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,198,198,198,60,179,180,30,0,0,32,0,0,16,148,146,0,215,0,0,0,0,0,148,146,
+57,0,174,174,174,0,0,174,174,0,197,0,0,174,0,0,0,197,0,60,0,0,0,0,0,0,0,0,5,103,146,215,215,0,0,0,0,0,148,103,
+57,0,0,0,0,174,0,0,0,0,0,0,0,174,0,0,174,174,174,72,84,0,0,0,0,0,0,0,17,148,146,0,0,198,198,198,198,0,148,146,
+57,174,174,174,0,174,0,0,0,0,174,0,174,0,174,0,174,0,0,0,193,0,0,0,0,0,0,0,4,148,146,0,0,184,183,183,184,0,148,146,
+57,0,0,0,0,174,0,174,174,0,174,0,174,174,174,0,174,0,174,0,0,0,0,0,8,0,0,0,16,148,103,0,0,0,0,0,0,0,103,146,
+57,0,0,0,0,0,0,0,0,0,174,0,174,0,174,0,0,0,174,48,29,0,0,19,20,21,0,0,5,148,146,0,0,0,0,0,0,0,148,146,
+57,4,174,174,0,0,0,174,174,0,0,0,0,0,0,0,174,174,174,60,28,0,0,0,32,0,0,0,17,103,146,215,0,0,0,0,0,215,148,146,
+57,16,0,0,0,0,0,174,174,0,0,0,174,174,174,0,0,0,189,60,29,0,0,0,0,0,0,0,4,148,158,159,103,138,0,0,0,137,160,146,
+69,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,71,28,0,0,0,8,0,0,0,16,149,103,135,135,150,174,182,174,149,103,150,
+18,0,0,0,0,0,0,0,0,6,30,18,0,0,0,0,0,28,29,28,29,0,0,19,20,21,0,0,5,190,162,161,140,192,174,182,174,190,162,192,
+30,0,44,44,44,44,44,0,0,0,0,29,29,30,28,0,0,0,0,0,0,0,0,0,32,0,0,0,17,190,161,173,173,192,174,182,174,190,161,192,
+18,0,0,0,0,0,44,6,30,18,0,28,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,198,37,38,39,0,198,29,
+30,0,0,0,0,0,0,30,44,30,0,29,0,0,0,44,44,44,44,0,0,0,0,19,20,21,0,0,0,84,0,0,0,0,0,0,0,0,196,29,
+18,44,44,44,0,0,0,6,44,6,0,30,0,0,0,28,29,18,29,0,0,0,0,0,32,0,0,0,0,193,0,0,0,0,0,0,0,0,197,29,
+30,44,6,6,30,6,30,18,44,30,0,29,0,0,0,0,0,0,28,0,0,0,0,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,196,29,
+18,44,30,0,0,0,0,0,44,6,0,28,29,18,29,0,0,0,29,0,0,0,0,6,7,9,6,6,6,0,0,0,0,0,0,0,0,0,198,29,
+30,44,6,18,0,6,30,6,30,18,0,6,30,0,0,0,0,0,30,0,0,0,0,6,31,33,7,9,6,0,0,0,0,0,0,0,0,0,197,29,
+18,44,44,30,0,0,0,0,44,44,44,44,0,0,0,29,18,29,28,5,0,0,0,7,9,6,31,33,6,0,29,29,29,29,29,29,29,29,29,29,
+30,0,6,18,6,44,6,30,44,6,30,6,30,30,0,0,0,0,0,17,6,6,6,31,33,6,6,6,6,0,193,0,0,29,29,0,0,0,0,29,
+18,44,30,0,30,44,30,6,44,30,45,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,47,7,9,0,0,29,0,0,29,0,29,
+30,44,6,0,6,44,6,30,44,6,57,198,0,198,0,0,0,198,0,0,0,198,175,198,0,0,198,198,198,60,31,33,0,0,29,0,0,29,0,29,
+18,44,30,0,30,44,44,6,30,6,57,184,0,184,0,198,0,184,0,198,0,184,175,184,0,198,184,198,184,60,29,0,0,0,29,0,0,29,0,29,
+30,44,6,0,6,30,44,30,0,30,57,198,0,198,0,184,0,198,0,184,0,175,198,198,0,184,0,184,0,60,29,0,0,29,29,0,0,29,0,29,
+18,0,30,0,30,6,0,6,0,6,57,184,0,184,0,198,0,184,0,198,0,175,198,184,0,198,198,198,198,60,29,0,29,29,0,0,0,29,0,29,
+30,0,6,0,6,30,0,0,0,30,57,198,0,198,0,184,0,198,0,184,0,198,184,198,0,184,198,184,184,60,29,0,0,0,0,29,29,29,0,29,
+18,0,30,0,0,0,0,18,30,18,57,184,0,184,0,198,0,184,0,198,0,184,0,184,0,198,184,0,198,60,29,0,29,29,29,29,29,29,0,29,
+30,0,6,30,6,30,6,30,44,30,57,198,175,198,0,184,0,198,0,184,0,198,0,198,0,184,0,198,184,60,29,0,29,0,0,0,0,29,0,29,
+18,0,0,44,44,44,0,0,0,44,193,175,0,184,0,198,0,184,0,198,0,198,0,184,0,198,0,184,0,60,29,0,0,0,0,0,0,0,0,29,
+30,18,30,18,30,18,30,18,30,18,69,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,71,29,29,29,29,29,29,29,29,29,29
+</data>
+ </layer>
+ <objectgroup color="#aa0000" id="4" name="limites" class="limitesMap" visible="0">
+  <object id="19" name="limites" type="limitesMap" x="1.5" y="0" width="12" height="638.5"/>
+  <object id="20" name="limites" type="limitesMap" x="626.5" y="0.75" width="12" height="638.5"/>
+  <object id="21" name="limites" type="limitesMap" x="625.696" y="626.382" width="12" height="609.928" rotation="89.9609"/>
+  <object id="22" name="limites" type="limitesMap" x="626" y="1.53463" width="12" height="611.928" rotation="89.9609"/>
+  <object id="23" name="limites" type="limitesMap" x="303.501" y="162.526" width="12" height="288.943" rotation="89.9609"/>
+  <object id="24" name="limites" type="limitesMap" x="289.499" y="305.039" width="14" height="274.942" rotation="89.9609"/>
+  <object id="25" name="limites" type="limitesMap" x="336.012" y="258.217" width="75.332" height="47.6187" rotation="89.9609"/>
+  <object id="26" name="limites" type="limitesMap" x="367.001" y="80.8573" width="110.656" height="47.6187" rotation="89.9609"/>
+  <object id="27" name="limites" type="limitesMap" x="319.348" y="126.213" width="96.6337" height="14.9616" rotation="89.9609"/>
+  <object id="28" name="limites" type="limitesMap" x="494.349" y="15.8307" width="335.309" height="46.9607" rotation="89.9609"/>
+  <object id="29" name="limites" type="limitesMap" x="463.019" y="416.496" width="63.9826" height="93.6196" rotation="89.9609"/>
+  <object id="30" name="limites" type="limitesMap" x="353.012" y="13.853" width="34.6538" height="46.9607" rotation="89.9609"/>
+  <object id="31" name="limites" type="limitesMap" x="494.348" y="481.867" width="142.644" height="26.963" rotation="89.9609"/>
+  <object id="32" name="limites" type="limitesMap" x="607.345" y="479.526" width="128.644" height="14" rotation="89.9609"/>
+  <object id="33" name="limites" type="limitesMap" x="559.345" y="447.518" width="95.9755" height="14" rotation="89.9609"/>
+  <object id="34" name="limites" type="limitesMap" x="173.669" y="465.521" width="141.975" height="28.295" rotation="89.9609"/>
+  <object id="35" name="limites" type="limitesMap" x="303.69" y="400.521" width="47.9723" height="14" rotation="89.9609"/>
+  <object id="36" name="limites" type="limitesMap" x="320.014" y="447.667" width="31.9728" height="14" rotation="89.9609"/>
+  <object id="37" name="limites" type="limitesMap" x="190.948" y="320.006" width="127.967" height="14" rotation="89.9609"/>
+  <object id="38" name="limites" type="limitesMap" x="159.347" y="353.667" width="92.6376" height="14" rotation="89.9609"/>
+  <object id="39" name="limites" type="limitesMap" x="127.348" y="352.667" width="61.6362" height="14" rotation="89.9609"/>
+  <object id="40" name="limites" type="limitesMap" x="46.1819" y="402" width="45.3038" height="12" rotation="89.9609"/>
+  <object id="41" name="limites" type="limitesMap" x="47.0148" y="464.667" width="142.968" height="13" rotation="89.9609"/>
+  <object id="42" name="limites" type="limitesMap" x="62.0148" y="433.667" width="45.3038" height="12" rotation="89.9609"/>
+  <object id="43" name="limites" type="limitesMap" x="78.0148" y="465.667" width="60.9698" height="12" rotation="89.9609"/>
+  <object id="44" name="limites" type="limitesMap" x="94.1922" y="528.989" width="45.6476" height="28.3438" rotation="89.9609"/>
+  <object id="45" name="limites" type="limitesMap" x="126.843" y="465.161" width="45.6476" height="28.3438" rotation="89.9609"/>
+  <object id="47" name="limites" type="limitesMap" x="125.839" y="513.172" width="45.6476" height="12" rotation="89.9609"/>
+  <object id="48" name="limites" type="limitesMap" x="126.866" y="593.979" width="12" height="78.3338" rotation="89.9609"/>
+  <object id="49" name="limites" type="limitesMap" x="144" y="578.166" width="12" height="29.0023" rotation="89.9609"/>
+  <object id="50" name="limites" type="limitesMap" x="144.333" y="434.143" width="12" height="62.3354" rotation="89.9609"/>
+  <object id="51" name="limites" type="limitesMap" x="111" y="402.499" width="12" height="63.0021" rotation="89.9609"/>
+  <object id="52" name="limites" type="limitesMap" x="222.666" y="465.509" width="12" height="48.0012" rotation="89.9609"/>
+  <object id="53" name="limites" type="limitesMap" x="238.667" y="418.333" width="12" height="48.0012" rotation="89.9609"/>
+  <object id="54" name="limites" type="limitesMap" x="206" y="433.666" width="12" height="12" rotation="89.9609"/>
+  <object id="55" name="limites" type="limitesMap" x="304.334" y="450.323" width="12" height="62.0017" rotation="89.9609"/>
+  <object id="56" name="limites" type="limitesMap" x="303" y="386.333" width="12" height="61.0017" rotation="89.9609"/>
+  <object id="57" name="limites" type="limitesMap" x="367" y="466.999" width="12" height="44.6684" rotation="89.9609"/>
+  <object id="58" name="limites" type="limitesMap" x="175.333" y="322.666" width="12" height="29.0033" rotation="89.9609"/>
+  <object id="59" name="limites" type="limitesMap" x="591.999" y="577.988" width="12" height="78.6672" rotation="89.9609"/>
+  <object id="60" name="limites" type="limitesMap" x="543.331" y="546.355" width="12" height="29.6659" rotation="89.9609"/>
+  <object id="61" name="limites" type="limitesMap" x="591.333" y="562.834" width="12" height="29.6659" rotation="89.9609"/>
+  <object id="62" name="limites" type="limitesMap" x="543.664" y="450.479" width="12" height="61.3301" rotation="89.9609"/>
+  <object id="63" name="limites" type="limitesMap" x="622.667" y="450.335" width="12" height="61.3301" rotation="89.9609"/>
+  <object id="64" name="limites" type="limitesMap" x="622.667" y="354.668" width="94.0009" height="12" rotation="89.9609"/>
+  <object id="65" name="limites" type="limitesMap" x="238.665" y="338.012" width="12" height="45.9954" rotation="89.9609"/>
+  <object id="66" name="limites" type="limitesMap" x="141.667" y="354.335" width="12" height="12" rotation="89.9609"/>
+  <object id="67" name="limites" type="limitesMap" x="142.333" y="514" width="12" height="12" rotation="89.9609"/>
+  <object id="68" name="limites" type="limitesMap" x="286" y="322" width="12" height="12" rotation="89.9609"/>
+  <object id="69" name="limites" type="limitesMap" x="190.333" y="497" width="12" height="12" rotation="89.9609"/>
+  <object id="70" name="limites" type="limitesMap" x="189.667" y="529.667" width="12" height="12" rotation="89.9609"/>
+  <object id="71" name="limites" type="limitesMap" x="189.667" y="562" width="12" height="12" rotation="89.9609"/>
+  <object id="72" name="limites" type="limitesMap" x="190.333" y="593.667" width="12" height="12" rotation="89.9609"/>
+  <object id="73" name="limites" type="limitesMap" x="221.667" y="594" width="12" height="12" rotation="89.9609"/>
+  <object id="74" name="limites" type="limitesMap" x="221.667" y="562.333" width="12" height="12" rotation="89.9609"/>
+  <object id="75" name="limites" type="limitesMap" x="222" y="530.333" width="12" height="12" rotation="89.9609"/>
+  <object id="76" name="limites" type="limitesMap" x="221.667" y="497.333" width="12" height="12" rotation="89.9609"/>
+  <object id="77" name="limites" type="limitesMap" x="253.667" y="514.667" width="12" height="12" rotation="89.9609"/>
+  <object id="78" name="limites" type="limitesMap" x="254" y="546" width="12" height="12" rotation="89.9609"/>
+  <object id="79" name="limites" type="limitesMap" x="254.333" y="578.667" width="12" height="12" rotation="89.9609"/>
+  <object id="80" name="limites" type="limitesMap" x="254" y="610.333" width="12" height="12" rotation="89.9609"/>
+  <object id="81" name="limites" type="limitesMap" x="286.333" y="594.333" width="12" height="12" rotation="89.9609"/>
+  <object id="82" name="limites" type="limitesMap" x="286" y="562.333" width="12" height="12" rotation="89.9609"/>
+  <object id="83" name="limites" type="limitesMap" x="286.333" y="530.333" width="12" height="12" rotation="89.9609"/>
+  <object id="84" name="limites" type="limitesMap" x="285.667" y="498.333" width="12" height="12" rotation="89.9609"/>
+  <object id="85" name="limites" type="limitesMap" x="317.667" y="514.667" width="12" height="12" rotation="89.9609"/>
+  <object id="86" name="limites" type="limitesMap" x="318.333" y="546" width="12" height="12" rotation="89.9609"/>
+  <object id="87" name="limites" type="limitesMap" x="318" y="577.667" width="12" height="12" rotation="89.9609"/>
+  <object id="88" name="limites" type="limitesMap" x="318" y="610" width="12" height="12" rotation="89.9609"/>
+  <object id="89" name="limites" type="limitesMap" x="350" y="594" width="30.0018" height="12" rotation="89.9609"/>
+  <object id="90" name="limites" type="limitesMap" x="350.333" y="562.667" width="12" height="12" rotation="89.9609"/>
+  <object id="91" name="limites" type="limitesMap" x="366.656" y="530.332" width="27.6676" height="12" rotation="89.9609"/>
+  <object id="92" name="limites" type="limitesMap" x="350.333" y="498" width="12" height="12" rotation="89.9609"/>
+  <object id="93" name="limites" type="limitesMap" x="381.667" y="498" width="12" height="12" rotation="89.9609"/>
+  <object id="94" name="limites" type="limitesMap" x="413.667" y="514.667" width="12" height="12" rotation="89.9609"/>
+  <object id="95" name="limites" type="limitesMap" x="380.667" y="530.333" width="12" height="12" rotation="89.9609"/>
+  <object id="96" name="limites" type="limitesMap" x="382.667" y="562" width="12" height="12" rotation="89.9609"/>
+  <object id="97" name="limites" type="limitesMap" x="381.667" y="594.333" width="12" height="12" rotation="89.9609"/>
+  <object id="98" name="limites" type="limitesMap" x="414" y="610.333" width="12" height="12" rotation="89.9609"/>
+  <object id="99" name="limites" type="limitesMap" x="413.667" y="577.333" width="12" height="12" rotation="89.9609"/>
+  <object id="100" name="limites" type="limitesMap" x="430" y="562.333" width="12" height="12" rotation="89.9609"/>
+  <object id="101" name="limites" type="limitesMap" x="445.667" y="594.333" width="12" height="12" rotation="89.9609"/>
+  <object id="102" name="limites" type="limitesMap" x="462" y="578.667" width="12" height="12" rotation="89.9609"/>
+  <object id="103" name="limites" type="limitesMap" x="462.334" y="545.967" width="12" height="60.0002" rotation="89.9609"/>
+  <object id="104" name="limites" type="limitesMap" x="446.333" y="515" width="12" height="12" rotation="89.9609"/>
+  <object id="105" name="limites" type="limitesMap" x="461.665" y="498.646" width="12" height="42.9979" rotation="89.9609"/>
+  <object id="106" name="limites" type="limitesMap" x="466.334" y="481.628" width="12" height="292.002" rotation="89.9609"/>
+  <object id="107" name="limites" type="limitesMap" x="525.939" y="594.485" width="12" height="12" rotation="89.9609"/>
+  <object id="108" name="limites" type="limitesMap" x="507.364" y="481.091" width="30.1788" height="12" rotation="89.9609"/>
+  <object id="109" name="limites" type="limitesMap" x="542.182" y="466.182" width="12" height="12" rotation="89.9609"/>
+  <object id="110" name="limites" type="limitesMap" x="541.667" y="355" width="12" height="12" rotation="89.9609"/>
+  <object id="112" name="limites" type="limitesMap" x="544.632" y="289.478" width="62.4976" height="48.3336" rotation="89.9609"/>
+  <object id="113" name="limites" type="limitesMap" x="622.976" y="304.987" width="46.0003" height="45.9991" rotation="89.9609"/>
+  <object id="114" name="limites" type="limitesMap" x="429.999" y="402.301" width="12" height="59.6657" rotation="89.9609"/>
+  <object id="115" name="limites" type="limitesMap" x="402.333" y="364.33" width="24.6676" height="21.6703" rotation="89.9609"/>
+  <object id="116" name="limites" type="limitesMap" x="403.666" y="316.165" width="24.6676" height="21.6703" rotation="89.9609"/>
+  <object id="117" name="limites" type="limitesMap" x="403" y="251.498" width="24.6676" height="21.6703" rotation="89.9609"/>
+  <object id="118" name="limites" type="limitesMap" x="419" y="155.165" width="24.6676" height="21.6703" rotation="89.9609"/>
+  <object id="119" name="limites" type="limitesMap" x="411" y="84.1648" width="24.6676" height="21.6703" rotation="89.9609"/>
+  <object id="120" name="limites" type="limitesMap" x="414.333" y="15.8163" width="13.6671" height="44.0036" rotation="89.9609"/>
+  <object id="121" name="limites" type="limitesMap" x="444.833" y="16.3315" width="45.3326" height="10.6728" rotation="89.9609"/>
+  <object id="122" name="limites" type="limitesMap" x="414" y="30.9969" width="32" height="10.6728" rotation="89.9609"/>
+  <object id="123" name="limites" type="limitesMap" x="221.334" y="50.3303" width="45.3326" height="10.6728" rotation="89.9609"/>
+  <object id="124" name="limites" type="limitesMap" x="206.011" y="130.665" width="30.3317" height="10.6728" rotation="89.9609"/>
+  <object id="126" name="limites" type="limitesMap" x="189.667" y="147" width="12" height="12" rotation="89.9609"/>
+  <object id="127" name="limites" type="limitesMap" x="302.667" y="147.333" width="12" height="12" rotation="89.9609"/>
+  <object id="128" name="limites" type="limitesMap" x="238" y="67" width="12" height="12" rotation="89.9609"/>
+  <object id="129" name="limites" type="limitesMap" x="221.664" y="15.3333" width="15.3333" height="12" rotation="89.9609"/>
+  <object id="130" name="limites" type="limitesMap" x="62.9768" y="16.6426" width="46.0241" height="47.3101" rotation="89.9609"/>
+  <object id="131" name="limites" type="limitesMap" x="158.654" y="81.2815" width="46.0241" height="140.31" rotation="89.9609"/>
+  <object id="132" name="limites" type="limitesMap" x="173.318" y="18.5435" width="44.3599" height="91.3075" rotation="89.9609"/>
+  <object id="133" name="limites" type="limitesMap" x="542.655" y="531.178" width="12" height="12" rotation="89.9609"/>
+  <object id="134" name="limites" type="limitesMap" x="624.988" y="13.845" width="32.6924" height="127.978" rotation="89.9609"/>
+  <object id="135" name="limites" type="limitesMap" x="510.32" y="49.011" width="12" height="12" rotation="89.9609"/>
+  <object id="136" name="limites" type="limitesMap" x="590.333" y="48.6667" width="12" height="12" rotation="89.9609"/>
+  <object id="137" name="limites" type="limitesMap" x="625.332" y="48.6537" width="126" height="30.9984" rotation="89.9609"/>
+  <object id="138" name="limites" type="limitesMap" x="573.666" y="98.3231" width="12" height="26.9989" rotation="89.9609"/>
+  <object id="139" name="limites" type="limitesMap" x="510.333" y="129.667" width="12" height="12" rotation="89.9609"/>
+  <object id="140" name="limites" type="limitesMap" x="510" y="193" width="12" height="12" rotation="89.9609"/>
+  <object id="141" name="limites" type="limitesMap" x="525.988" y="176.999" width="29.0011" height="12" rotation="89.9609"/>
+  <object id="142" name="limites" type="limitesMap" x="589.999" y="210.634" width="12" height="60.332" rotation="89.9609"/>
+  <object id="143" name="limites" type="limitesMap" x="510.333" y="274.667" width="12" height="12" rotation="89.9609"/>
+  <object id="144" name="limites" type="limitesMap" x="620.668" y="274.99" width="28.5024" height="26.0009" rotation="89.9609"/>
+  <object id="145" name="limites" type="limitesMap" x="620" y="176.667" width="95.3413" height="12" rotation="89.9609"/>
+  <object id="146" name="limites" type="limitesMap" x="30.3333" y="291" width="12" height="12" rotation="89.9609"/>
+  <object id="147" name="limites" type="limitesMap" x="61.3299" y="274.645" width="12" height="43.6632" rotation="89.9609"/>
+  <object id="148" name="limites" type="limitesMap" x="62.3299" y="225.311" width="12" height="44.3299" rotation="89.9609"/>
+  <object id="149" name="limites" type="limitesMap" x="79" y="193.502" width="12" height="44.3299" rotation="89.9609"/>
+  <object id="150" name="limites" type="limitesMap" x="238.656" y="226.504" width="27.4975" height="44.3299" rotation="89.9609"/>
+  <object id="151" name="limites" type="limitesMap" x="238.333" y="289.835" width="12" height="44.3299" rotation="89.9609"/>
+  <object id="152" name="limites" type="limitesMap" x="142.329" y="274.509" width="24.9984" height="26.3292" rotation="89.9609"/>
+  <object id="153" name="limites" type="limitesMap" x="141.667" y="193.835" width="12" height="25.9966" rotation="89.9609"/>
+  <object id="154" name="limites" type="limitesMap" x="302" y="177.835" width="12" height="44.3299" rotation="89.9609"/>
+  <object id="155" name="limites" type="limitesMap" x="302.333" y="193.835" width="26.3329" height="28.3301" rotation="89.9609"/>
+  <object id="156" name="limites" type="limitesMap" x="269.666" y="208.837" width="41.6683" height="12" rotation="89.9609"/>
+  <object id="157" name="limites" type="limitesMap" x="221.507" y="194.335" width="30.6667" height="12" rotation="89.9609"/>
+  <object id="158" name="limites" type="limitesMap" x="174.166" y="226.667" width="41.6683" height="12" rotation="89.9609"/>
+  <object id="159" name="limites" type="limitesMap" x="140.842" y="242.666" width="9.66103" height="24.6635" rotation="89.9609"/>
+  <object id="160" name="limites" type="limitesMap" x="283.503" y="274.335" width="9.66103" height="24.6635" rotation="89.9609"/>
+  <object id="161" name="limites" type="limitesMap" x="81.6889" y="209.87" width="12" height="44"/>
+  <object id="162" name="limites" type="limitesMap" x="193.5" y="256.5" width="12" height="12"/>
+  <object id="163" name="limites" type="limitesMap" x="164" y="194" width="12" height="12"/>
+  <object id="164" name="limites" type="limitesMap" x="226" y="256.5" width="12" height="12"/>
+  <object id="168" name="limites" type="limitesMap" x="556.5" y="305.5" width="42.9979" height="12" rotation="89.9609"/>
+ </objectgroup>
+ <objectgroup color="#0000ff" id="5" name="interaccion">
+  <object id="165" name="cartel" type="mensajeChat" x="465.5" y="368.5" width="12" height="12"/>
+  <object id="167" name="cartel" type="mensajeChat" x="322" y="209" width="12" height="12"/>
+  <object id="180" name="inicio" type="chatQueHacer" gid="232" x="23.5" y="149.5" width="16" height="16"/>
+  <object id="181" name="npc" type="chat" gid="218" x="181.5" y="39" width="16" height="16"/>
+  <object id="182" name="npc" type="chat" gid="231" x="288" y="48" width="16" height="16"/>
+  <object id="183" name="npcEnemigo" type="chat" gid="242" x="512" y="373.5" width="16" height="16"/>
+  <object id="184" name="npcEnemigo" type="chat" gid="217" x="289" y="368.5" width="16" height="16"/>
+  <object id="185" name="npcEnemigo" type="chat" gid="254" x="240" y="512" width="16" height="16"/>
+  <object id="186" name="npcEnemigo" type="chat" gid="254" x="416" y="527" width="16" height="16"/>
+  <object id="187" name="npcEnemigo" type="chat" gid="255" x="575.5" y="608.5" width="16" height="16"/>
+  <object id="188" name="npcEnemigo" type="chat" gid="253" x="528.5" y="495.5" width="16" height="16"/>
+  <object id="189" name="npcEnemigo" type="chat" gid="244" x="560" y="240" width="16" height="16"/>
+  <object id="190" name="npcEnemigo" type="chat" gid="241" x="529" y="64" width="16" height="16"/>
+  <object id="191" name="npcEnemigo" type="chat" gid="229" x="519" y="127.5" width="16" height="16"/>
+ </objectgroup>
+ <objectgroup id="6" name="monedas">
+  <object id="169" name="moneda" type="obtener" gid="94" x="64" y="35" width="15" height="15">
+   <properties>
+    <property name="DesaparecerAlTocar" type="bool" value="true"/>
+    <property name="DireccionMovimiento" type="int" value="-1"/>
+    <property name="Movimiento" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="170" name="moneda" type="obtener" gid="94" x="17" y="267.5" width="15" height="15">
+   <properties>
+    <property name="DesaparecerAlTocar" type="bool" value="true"/>
+    <property name="DireccionMovimiento" type="int" value="-1"/>
+    <property name="Movimiento" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="171" name="moneda" type="obtener" gid="94" x="416.5" y="33" width="15" height="15">
+   <properties>
+    <property name="DesaparecerAlTocar" type="bool" value="true"/>
+    <property name="DireccionMovimiento" type="int" value="-1"/>
+    <property name="Movimiento" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="172" name="moneda" type="obtener" gid="94" x="500" y="84.5" width="15" height="15">
+   <properties>
+    <property name="DesaparecerAlTocar" type="bool" value="true"/>
+    <property name="DireccionMovimiento" type="int" value="-1"/>
+    <property name="Movimiento" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="174" name="moneda" type="obtener" gid="94" x="608.5" y="623.5" width="15" height="15">
+   <properties>
+    <property name="DesaparecerAlTocar" type="bool" value="true"/>
+    <property name="DireccionMovimiento" type="int" value="-1"/>
+    <property name="Movimiento" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="175" name="moneda" type="obtener" gid="94" x="448.5" y="624" width="15" height="15">
+   <properties>
+    <property name="DesaparecerAlTocar" type="bool" value="true"/>
+    <property name="DireccionMovimiento" type="int" value="-1"/>
+    <property name="Movimiento" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="176" name="moneda" type="obtener" gid="94" x="176" y="527" width="15" height="15">
+   <properties>
+    <property name="DesaparecerAlTocar" type="bool" value="true"/>
+    <property name="DireccionMovimiento" type="int" value="-1"/>
+    <property name="Movimiento" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="177" name="moneda" type="obtener" gid="94" x="49.5" y="496" width="15" height="15">
+   <properties>
+    <property name="DesaparecerAlTocar" type="bool" value="true"/>
+    <property name="DireccionMovimiento" type="int" value="-1"/>
+    <property name="Movimiento" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="178" name="moneda" type="obtener" gid="94" x="32" y="463.5" width="15" height="15">
+   <properties>
+    <property name="DesaparecerAlTocar" type="bool" value="true"/>
+    <property name="DireccionMovimiento" type="int" value="-1"/>
+    <property name="Movimiento" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="179" name="moneda" type="obtener" gid="94" x="128" y="385" width="15" height="15">
+   <properties>
+    <property name="DesaparecerAlTocar" type="bool" value="true"/>
+    <property name="DireccionMovimiento" type="int" value="-1"/>
+    <property name="Movimiento" type="bool" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

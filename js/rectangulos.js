@@ -7,7 +7,7 @@ function Rectangulo(x, y, ancho, alto){
     this.y = y;
     this.ancho = ancho;
     this.alto = alto;
-    this.id = "r" + x + y; //crear los id de nuestros rectangulos ejemplo (r x=11 y=23) para quedar (r1123)
+    this.id = x + "r" + y; //crear los id de nuestros rectangulos ejemplo ( x=11 r y=23) para quedar (11r23)
     this.insertarDOM()
 }
 //introducir datos en html y al css

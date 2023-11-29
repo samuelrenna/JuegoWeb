@@ -14,9 +14,10 @@
     </div>
 
 
-
+    <script src="js/ajax.js"></script>
     <script src="js/teclado.js"></script>
     <script src="js/rectangulos.js"></script>
+    <script src="js/mando.js"></script>
     <script src="js/buclePrincipal.js"></script> 
     <script src="js/dimensiones.js"></script> 
     <script src="js/inicio.js"></script>
