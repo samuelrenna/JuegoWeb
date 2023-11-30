@@ -1,3 +1,5 @@
+/* archivo para cargar tiled del mapa */
+
 const ajax = {
     cargarArchivo: function(ruta) {
         const peticion = new XMLHttpRequest();
@@ -12,7 +14,7 @@ const ajax = {
         if(peticion.readyState === XMLHttpRequest.DONE ) {
             if (peticion.status === 200 ) {
                 console.log(JSON.parse(peticion.responseText));
-            }else if (peeticion.status === 400 ) {
+            }else if (peticion.status === 400 ) {
                 console.log("error");
             } else {
                 console.log("error tipo loco");
