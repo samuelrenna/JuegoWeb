@@ -23,7 +23,7 @@ function PaletaSprites (datosSprites) {
 }
 
     PaletaSprites.prototype.obtenerPosicionDesdeIdSprite = function(idSpriteSobreZero){
-    const y = Math.floor(idSpriteSobreSero / this.anchoImagenMedidoenSprites);
+    const y = Math.floor(idSpriteSobreZero / this.anchoImagenMedidoenSprites);
     const x = idSprite % this.anchoImagenMedidoenSprites; // % nos devuelve el resto de la divicion para saber la posicion X
 
         return new Punto ( x * this.anchoSprites, y * this.altoSprites );
