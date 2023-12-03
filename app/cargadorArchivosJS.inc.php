@@ -2,12 +2,16 @@
 
 <?php
 
-$fecha = new DateTime();
+$fecha = new DateTime(); //para tomar momento temporal y nos ayudara a crear parametros para mantener los acrchivos siempre cargados como nuevos
 
 $funtesJavascript = array(
+    "js/Rectangulos.js",
+    "js/Punto.js",
+    "js/Sprite.js",
+    "js/PaletaSprites.js",
+    "js/Tile.js",
     "js/ajax.js",
     "js/teclado.js",
-    "js/rectangulos.js",
     "js/mando.js",
     "js/buclePrincipal.js",
     "js/dimensiones.js",
