@@ -1,4 +1,4 @@
-function CapaMapaTiles (datosCapa, indiceZ, anchoDeLosTiles, altoDeLosTiles, paletasSprites){
+function CapaMapaTiles(datosCapa, indiceZ, anchoDeLosTiles, altoDeLosTiles, paletasSprites){
 
     this.anchoEnTiles = parseInt(datosCapa.width);
     this.altoEnTiles = parseInt(datosCapa.height);
@@ -7,8 +7,8 @@ function CapaMapaTiles (datosCapa, indiceZ, anchoDeLosTiles, altoDeLosTiles, pal
     this.z = indiceZ;
     this.tiles = [];
 
-    for (y=0; y < this.altoEnTiles; y++){
-        for (x=0; x < this.anchoEnTiles; x++) {
+    for ( let y=0; y < this.altoEnTiles; y++){
+        for ( let x=0; x < this.anchoEnTiles; x++) {
             const idSpriteActualSobreUno = datosCapa.data[x + y * this.anchoEnTiles];
             if (idSpriteActualSobreUno === 0) {
                 this.tiles.push(null);
@@ -21,8 +21,8 @@ function CapaMapaTiles (datosCapa, indiceZ, anchoDeLosTiles, altoDeLosTiles, pal
     }
 }
 CapaMapaTiles.prototype.encontrarSpriteEnPaletaPorId = function (idSpriteSobreZero, paletasSprites) {
-for (s = 0 ; s < paletasSprites.lenght; s++){
-    if (idSpriteSobreZero >= paletasSprites[s].primerSpriteSobreUno - 1 && idSpriteSobreZero < paletasSprites[s].totalSprites + paletasSprites[s].primerSpriteSobreUno + 1){
+    for (let s = 0 ; s < paletasSprites.lenght; s++){
+        if (idSpriteSobreZero >= paletasSprites[s].primerSpriteSobreUno - 1 && idSpriteSobreZero < paletasSprites[s].totalSprites + paletasSprites[s].primerSpriteSobreUno + 1) {
         return paletasSprites[s].sprite[Math.abs(paletasSprites[s].primerSpriteSobreUno - 1 - idSpriteSobreZero)];//math.abs obtener absoluto de un numero ayuda a impedir numero negativos
         }
     }

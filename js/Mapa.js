@@ -1,5 +1,5 @@
 function Mapa (objetoJSON) {
-    this.posicion = new Punto ( 0, 0 );
+    this.posicion = new Punto( 0, 0 );
     this.posicionActualizada = new Punto( 0, 0 );
 
     this.anchoMedidoEnTiles = parseInt(objetoJSON.width);
@@ -16,7 +16,7 @@ function Mapa (objetoJSON) {
 
 Mapa.prototype.iniciarPaletasSprites = function(datosCapas) {
     for (let i = 0; i < datosCapas.length; i++) {
-        this.paletasSprites.push(new PaletasSprites(datosCapas[i]));
+        this.paletasSprites.push(new PaletaSprites(datosCapas[i]));
     }
 }
 
