@@ -3,14 +3,10 @@
 //namespace espacio de nombres
 // aca va todo lo que vamos a iniciar o sea para que funcione
 
-
-document.addEventListener("DOMContentLoaded", function(){
-    inicio.iniciarjuego();
-},false );
-
-const inicio = {
+/*const inicio = {
     iniciarjuego: function(){
         console.log("Juego iniciado");
+        ajax.cargarArchivo("maps/desierto48.json")
         teclado.iniciar();
         dimensiones.iniciar();
         mando.iniciar()
@@ -26,5 +22,28 @@ const inicio = {
             }
         }
 
+    }*/
+const inicio ={ 
+
+    iniciadores: [
+        maquinaEstados.iniciar(),
+        teclado.iniciar (),
+        mando.iniciar (),
+        buclePrincipal.iterar()
+    ],
+    iniciarjuego: function() {
+        inicio.encadenarInicios(inicio.iniciadores.shift());//shift se encargara de borrar el contenido del array iniciadores despues de usar cada funcion 
+
+    },
+    encadenarInicios: function (iniciador) {
+        if(iniciador) {
+            iniciador (() => inicio.encadenarInicios(iniciadores.shift()));
+        }
+
     }
 };
+
+
+document.addEventListener("DOMContentLoaded", function(){
+    inicio.iniciarjuego();
+},false );

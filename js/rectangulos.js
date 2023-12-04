@@ -7,12 +7,19 @@ function Rectangulo(x, y, ancho, alto){
     this.y = y;
     this.ancho = ancho;
     this.alto = alto;
-    /* esto lo eliminamos para empezar a generar el mapa real ↓
+}
+
+/*function Rectangulo(x, y, ancho, alto){
+    this.x = x;
+    this.y = y;
+    this.ancho = ancho;
+    this.alto = alto;
+    esto lo eliminamos para empezar a generar el mapa real ↓
     this.id = x + "r" + y; //crear los id de nuestros rectangulos ejemplo ( x=11 r y=23) para quedar (11r23)
-    this.insertarDOM()*/
+    this.insertarDOM()
 }
 //introducir datos en html y al css
-/* esto lo eliminamos para empezar a generar el mapa real ↓
+esto lo eliminamos para empezar a generar el mapa real ↓
 Rectangulo.prototype.insertarDOM = function(){
     let div = '<div id="'  + this.id +  '"></div>' ;
     let html = document.getElementById("juego").innerHTML ;

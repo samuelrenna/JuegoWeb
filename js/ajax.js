@@ -1,7 +1,7 @@
 /* archivo para cargar tiled del mapa */
 
 const ajax = {
-    cargarArchivo: function(ruta) {
+    cargarArchivo: function(ruta, manipularDatos) {
         const peticion = new XMLHttpRequest();
         peticion.onreadystatechange = function() {
             /*estados de la peticion
@@ -13,7 +13,8 @@ const ajax = {
             */
         if(peticion.readyState === XMLHttpRequest.DONE ) {
             if (peticion.status === 200 ) {
-                console.log(JSON.parse(peticion.responseText));
+                manipularDatos(JSON.parse(peticion.responseText));
+                //console.log(JSON.parse(peticion.responseText));
             }else if (peticion.status === 400 ) {
                 console.log("error");
             } else {

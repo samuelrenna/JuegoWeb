@@ -1,6 +1,7 @@
-function Sprite(ruta, idSobreZero, posicionEnHoja ) {
+function Sprite(ruta, idSobreZero, posicionEnHoja) {
     const elementosRuta = ruta.split("/");
-    this.rutaHojaOrigen = "img/" + elementosRuta[elementosRuta.lenght-1];
+    this.rutaHojaOrigen = "img/" + elementosRuta[elementosRuta.length - 1];
     this.idSobreZero = idSobreZero ;
+    this.odSobreUno = idSobreZero + 1;
     this.posicionEnHoja = posicionEnHoja ;
     }

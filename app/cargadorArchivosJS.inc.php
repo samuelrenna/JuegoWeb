@@ -6,17 +6,22 @@ $fecha = new DateTime(); //para tomar momento temporal y nos ayudara a crear par
 
 $funtesJavascript = array(
     "js/Rectangulos.js",
-    "js/Punto.js",
     "js/Sprite.js",
-    "js/PaletaSprite.js",
     "js/Tile.js",
     "js/CapaMapaTiles.js",
+    "js/PaletaSprite.js",
+    "js/listadoEstados.js",
     "js/ajax.js",
+    "js/EstadoMapamundi.js",
+    "js/maquinaEstados.js",
+    "js/Punto.js",
+    "js/Mapa.js",
     "js/teclado.js",
     "js/mando.js",
-    "js/buclePrincipal.js",
     "js/dimensiones.js",
+    "js/buclePrincipal.js",
     "js/inicio.js"
+
 );
 
 foreach ($funtesJavascript as $fuente) {
