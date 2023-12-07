@@ -24,7 +24,6 @@
 
     }*/
 const inicio ={ 
-
     iniciadores: [
         maquinaEstados.iniciar(),
         teclado.iniciar (),
@@ -33,18 +32,15 @@ const inicio ={
     ],
     iniciarjuego: function() {
         inicio.encadenarInicios(this.iniciadores.shift()); // se cambio "inicio.iniciadores.shift()" a "this.iniciadores.shift()"
-        //inicio.encadenarInicios(inicio.iniciadores.shift());//shift se encargara de borrar el contenido del array iniciadores despues de usar cada funcion 
-
+        //inicio.encadenarInicios(inicio.iniciadores.shift());//shift se encargara de borrar el contenido del array iniciadores despues de usar cada funcion
     },
     encadenarInicios: function (iniciador) {
         if(iniciador) {
             iniciador(() => inicio.encadenarInicios(this.iniciadores.shift())); // se cambio // Cambiar "iniciadores.shift()" a "this.iniciadores.shift()"
             //iniciador (() => inicio.encadenarInicios(iniciadores.shift()));
         }
-
     }
 };
-
 
 document.addEventListener("DOMContentLoaded", function(){
     inicio.iniciarjuego();

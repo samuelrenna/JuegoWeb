@@ -13,6 +13,8 @@ function Mapa (objetoJSON) {
 
     this.capasTiles = [];
     this.iniciarCapas(objetoJSON.layers);
+
+    this.iniciarRejilla();
 }
 
 Mapa.prototype.iniciarPaletasSprites = function(datosCapas) {
@@ -38,7 +40,7 @@ Mapa.prototype.iniciarCapas =  function(datosCapas) {
         const anchoMapaEnPixeles = this.anchoMedidoEnTiles * this.anchoDeLosTiles;
         const altoMapaEnPixeles = this.altoMedidoEnTiles * this.altoDeLosTiles;
 
-        const html = "";
+        let html = "";
 
         for (let ct = 0; ct < this.capasTiles.length; ct++) {
             for (let t = 0; t < this.capasTiles[ct].tiles.length; t++){
@@ -61,7 +63,7 @@ Mapa.prototype.iniciarCapas =  function(datosCapas) {
 
             }
         }
-        document.getElementsByTagName("body")[0].style.overflow = "hidden";
+        document.getElementsByTagName("body")[0].style.overflow = "hidden"; //accederemos a un elemento del html puntual y le esconderemos el scroll, hay que indicar en que indice quieres acceder ya que devuelve un array
     }
 
     Mapa.prototype.actualizar = function() {

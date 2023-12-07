@@ -10,6 +10,7 @@
     <h3>primer juego web</h3>
     
     <div id="juego">
+        <div id="mapa"></div>
 
     </div>
 
