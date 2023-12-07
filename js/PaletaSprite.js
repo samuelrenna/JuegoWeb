@@ -26,3 +26,4 @@ PaletasSprites.prototype.obtenerPosicionDesdeIdSprite = function (idSpriteSobreZ
     const x = idSpriteSobreZero % this.anchoImagenMedidoenSprites;// % entrega el resto de una divicion 
     return new Punto(x * this.anchoSprites, y * this.altoSprites);
 };
+export default PaletasSprites
