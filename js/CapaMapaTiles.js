@@ -21,10 +21,10 @@ function CapaMapaTiles(datosCapa, indiceZ, anchoDeLosTiles, altoDeLosTiles, pale
     }
 }
 CapaMapaTiles.prototype.encontrarSpriteEnPaletaPorId = function (idSpriteSobreZero, paletasSprites) {
-    for (let s = 0 ; s < paletasSprites.lenght; s++){
+    for (let s = 0; s < paletasSprites.length; s++){
         if (idSpriteSobreZero >= paletasSprites[s].primerSpriteSobreUno - 1 && idSpriteSobreZero < paletasSprites[s].totalSprites + paletasSprites[s].primerSpriteSobreUno + 1) {
-        return paletasSprites[s].sprite[Math.abs(paletasSprites[s].primerSpriteSobreUno - 1 - idSpriteSobreZero)];//math.abs obtener absoluto de un numero ayuda a impedir numero negativos
+            return paletasSprites[s].sprites[Math.abs(paletasSprites[s].primerSpriteSobreUno - 1 - idSpriteSobreZero)];  //math.abs obtener absoluto de un numero ayuda a impedir numero negativos
         }
     }
-    throw "EL ID SOBRE ZERO " + idSpriteSobreZero + " DEL SPRITES NO EXISTE EN NINGUNA PALETA";
+    throw "EL ID SOBRE ZERO " + idSpriteSobreZero + " DEL SPRITE NO EXISTE EN NINGUNA PALETA";
 }
