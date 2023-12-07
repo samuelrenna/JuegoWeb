@@ -17,7 +17,8 @@ function PaletasSprites(datosSprites) {
 
     for (let s = 0; s < this.totalSprites; s++) {
         const idActualSobreZero = this.primerSpriteSobreUno - 1 + s;
-        this.sprites.push(new Sprites(this.rutaImagen, idActualSobreZero, this.obtenerPosicionDesdeIdSprite(idActualSobreZero)));
+        this.sprites.push(new Sprite(this.rutaImagen, idActualSobreZero, this.obtenerPosicionDesdeIdSprite(idActualSobreZero)));
+        //this.sprites.push(new Sprites(this.rutaImagen, idActualSobreZero, this.obtenerPosicionDesdeIdSprite(idActualSobreZero)));
     }
 }
 
