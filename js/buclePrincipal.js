@@ -29,8 +29,11 @@ const buclePrincipal= {
 
     },
     actualizar: function(registroTemporal){
-        teclado.reiniciar();
         mando.actualizar();
+        controles.actualizar();
+        maquinaEstados.actualizar();
+        teclado.reiniciar();
+        controles.reiniciar();
         buclePrincipal.aps++ ;
 
 

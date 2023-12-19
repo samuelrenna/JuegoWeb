@@ -4,8 +4,7 @@ const teclado = {
         document.onkeydown = teclado.guardarTecla;
     },
     guardarTecla: function(e) {
-teclado.teclas.push(e.key);
-console.log(e.key);
+        teclado.teclas.push(e.key);
     },
     teclaPulsada: function(codigoTecla){
         return(teclado.teclas.indexOf(codigoTecla) !== -1) ? true : false; //si devuelve -1 HAY UN ERROR (EL ? EVALUA LA CONDICION DEL RETURN)
